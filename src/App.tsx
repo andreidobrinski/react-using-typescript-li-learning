@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Message />
+        <Message message="this is a simple message" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           The value {firstValue} is of {typeof firstValue} type.
