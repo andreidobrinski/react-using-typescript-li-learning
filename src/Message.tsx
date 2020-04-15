@@ -1,8 +1,13 @@
 import React from 'react';
 
-const Message = (prop: { message: string }) => {
+interface MessageProps {
+  message: string;
+  name: string;
+}
+
+const Message = (props: MessageProps) => {
   return (
-    <p>{prop.message}</p>
+    <p>{props.name}, {props.message}</p>
   );
 };
 
