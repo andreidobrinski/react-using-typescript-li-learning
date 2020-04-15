@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Message from './Message';
 import Class from './Class';
 
 function App() {
@@ -31,7 +30,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Class />
-        <Message message="this is a simple message" name="name" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           The value {firstValue} is of {typeof firstValue} type.
